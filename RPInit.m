@@ -45,7 +45,12 @@ if size(envBlk)==1
     Arena.length=eval(get_param(block,'arenaLength'));
     Arena.width=eval(get_param(block,'arenaWidth'));
     
-    obstacles=eval(get_param(block,'obstacles'));
+    blkValue=get_param(block,'obstacles');
+    try
+      obstacles=eval(blkValue);
+    catch ME
+      obstacles = evalin('base',blkValue);
+    end
     
     create_and_delete_blocks(obstacles,block) % update obstacles 
     
