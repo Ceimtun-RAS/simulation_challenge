@@ -1,15 +1,27 @@
 # Competición UNrobot simulación 👉 [Inscribite](https://docs.google.com/forms/d/e/1FAIpQLSc2hobkpVgkxnECSdLmDt7OksRm5p6DZgrpnfqgwDmuXKKJpw/viewform)
 
+# Contenido 
+
+  - [Charlas técnicas](#charlas-técnicas)
+  - [Getting Started](#getting-started)
+  - [Guía especificaciones](#guía-especificaciones)
+  - [Robot](#robot)
+  - [Arena](#arena)
+  - [Ambiente de programación](#ambiente-de-programación)
+
+
 Este repositorio contiene el código base necesario para participar en los retos de simulación del UN robot tanto intermedio como avanzado. estos retos consisten en desarrollar algoritmos de posicionamiento y localización utilizando el entorno de simulación de [Robotics Playground](https://www.mathworks.com/matlabcentral/fileexchange/67157-robotics-playground).
 
+[![Watch the video](media/img/simulation_video_preview.png)](https://youtu.be/LbFredQy0Gw)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LbFredQy0Gw" title="Promotional video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Charlas técnicas 
 
+[![Watch the video](media/img/roboticsPlayground_preview.png)](https://youtu.be/o_rO1xNuMJU)
 
 ## Getting Started
-Una vez configurado el [Ambiente de programación](##Ambiente) la forma de iniciar la simulación es sencilla solo hay que correr el archivo [setup.m](setup.m) dentro de MATLAB. Para editar el modelo escoge el archivo [UNrobot_pro.slx](UNrobot_pro.slx) o  [UNrobot_intermediate.slx](UNrobot_intermediate.slx) Estos son los unicos archivos que requieres para desarrollar tu solución. 
+Una vez configurado el [Ambiente de programación](#ambiente-de-programación) la forma de iniciar la simulación es sencilla solo hay que correr el archivo [setup.m](setup.m) dentro de MATLAB. Para editar el modelo escoge el archivo [UNrobot_pro.slx](UNrobot_pro.slx) o  [UNrobot_intermediate.slx](UNrobot_intermediate.slx) Estos son los únicos archivos que requieres para desarrollar tu solución. 
 
-Los demás archivos contienen versiones modificadas de archivos de _robotics playground_ por lo que debes mantenerlos dentro de  la carpeta donde desarrolles tu solución no es recomendable que añadas este directorio a el PATH de MATLAB ya que puede generar incompatibilidades  al momento de usar el robotics playgroudn.   
+Los demás archivos contienen versiones modificadas de archivos de _robotics playground_ por lo que debes mantenerlos dentro de  la carpeta donde desarrolles tu solución no es recomendable que añadas este directorio a el PATH de MATLAB ya que puede generar incompatibilidades  al momento de usar el robotics playground.   
 
 ## Guía especificaciones 
 
@@ -35,5 +47,7 @@ Para la de este proyecto se requiere una instalación de:
 * Toolbox robotics playground
 
 
-![arena](media/img/simulink_intermediate.png)
+![programming enviroment](media/img/simulink_intermediate.png)
+
+
 
