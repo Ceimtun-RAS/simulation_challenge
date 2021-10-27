@@ -2,5 +2,6 @@
 *.slxc
 slprj
 .autosave
+.vscode 
 ## temporal office files
 ~$*     
