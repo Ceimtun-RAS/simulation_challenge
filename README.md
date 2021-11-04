@@ -26,7 +26,7 @@ Los demás archivos contienen versiones modificadas de archivos de _robotics pla
 ## Guía especificaciones 
 
 * [Reto Simulación Profesional](media/Reto_Simulacion_Profesional_Guia_de_Especificaciones.pdf)
-* [Reto Simulación Intermedio](media/Reto_Simulacion_Profesional_Guia_de_Especificaciones.pdf)
+* [Reto Simulación Intermedio](media/Reto_Simulacion_Intermedio_Guia_de_Especificaciones.pdf)
   
 
 ## Robot
