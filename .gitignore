@@ -1,7 +1,7 @@
 *.asv
 *.slxc
 slprj
-.autosave
+*.autosave
 .vscode 
 ## temporal office files
 ~$*     
