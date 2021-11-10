@@ -3,7 +3,7 @@
 % extract information from the simulation and tinker around while developing
 % your solution of the challenge. 
 clear, clc, close all
-
+addpath("utils")
 %% Robot properties 
 % the robot and simulation parameters  for the competition are set 
 % acording to the especification guide. However exploring how this parameters 
